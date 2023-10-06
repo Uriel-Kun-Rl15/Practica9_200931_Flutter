@@ -11,7 +11,7 @@ import 'package:movieapp_20091/model/Media.dart'; // Importa la definición de l
 
 class HttpHandler {
   final String _baseUrl = "api.themoviedb.org"; // Define la URL base de la API.
-  final String _lenguaje =
+  final String _language =
       "es-MX"; // Define el lenguaje deseado para las respuestas.
 
   // Define una función asincrónica para obtener datos JSON desde una URI.
@@ -29,7 +29,7 @@ class HttpHandler {
         {
           'api_key': API_KEY,
           'page': "1",
-          'languaje': _lenguaje
+          'languaje': _language
         }); // Parámetros de la solicitud.
     // Llama a la función getJson para obtener datos y mapearlos en objetos de tipo Media.
     return getJson(uri).then(((data) =>

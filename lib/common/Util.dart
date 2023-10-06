@@ -39,6 +39,6 @@ genreIds.map((id) => _genreMap[id]).toList();
 
 String getGenreValues(List <dynamic> genreIds){
   StringBuffer buffer = new StringBuffer();
-  buffer.writeAll(genresToList(genreIds), " ,s ");
+  buffer.writeAll(genresToList(genreIds), ", ");
   return buffer.toString();
 }
