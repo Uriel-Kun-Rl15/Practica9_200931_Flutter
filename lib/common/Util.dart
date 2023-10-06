@@ -32,3 +32,13 @@ Map<int, String> _genreMap = {
   10767: 'Conversación',
   10768: 'Guerra & Politica',
 };
+
+
+List<String?> genresToList(List <dynamic> genreIds )=>
+genreIds.map((id) => _genreMap[id]).toList();
+
+String getGenreValues(List <dynamic> genreIds){
+  StringBuffer buffer = new StringBuffer();
+  buffer.writeAll(genresToList(genreIds), " ,s ");
+  return buffer.toString();
+}

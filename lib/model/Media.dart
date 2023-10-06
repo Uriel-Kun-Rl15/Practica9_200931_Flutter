@@ -17,6 +17,7 @@ class Media {
 
   String getPosterUrl() => getMediumPictureUrl(posterPath);
   String getBackDropUrl() => getLargePictureUrl(backdropPath);
+  String getGenres()=> getGenreValues (genreIds);
 
   factory Media(Map jsonMap) {
     try {
