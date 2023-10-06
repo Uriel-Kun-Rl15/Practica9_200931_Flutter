@@ -27,6 +27,7 @@ flutter:
     - assets/3.png
     - assets/poster.jpg
     - assets/icono.png
+    - assets/placeholder.gif
   fonts:
     - family: MiFuente
       fonts:

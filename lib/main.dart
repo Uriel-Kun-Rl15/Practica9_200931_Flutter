@@ -4,6 +4,7 @@ import 'package:movieapp_20091/home.dart'; // Importa el archivo home.dart que c
 void main() {
   // Función principal del programa
   runApp(new MaterialApp(
+    
     // Inicializa la aplicación Flutter
     debugShowCheckedModeBanner:
         false, // Desactiva la etiqueta de depuración en la esquina superior derecha de la aplicación

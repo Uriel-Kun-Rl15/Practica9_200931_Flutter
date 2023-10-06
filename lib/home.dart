@@ -52,6 +52,7 @@ class _HomeState extends State<Home> {
               child: Text(
                 'Menú',
                 style: TextStyle(
+                  backgroundColor: Colors.black38,
                   color: Colors.black38,
                   fontSize: 24,
                 ),
